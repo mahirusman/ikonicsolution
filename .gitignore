@@ -10,6 +10,12 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+.vscode
+
+.DS_Store
+
+
+
 # Runtime data
 pids
 *.pid
@@ -79,7 +85,6 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
-.env
 
 
 # parcel-bundler cache (https://parceljs.org/)
