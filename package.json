@@ -3,14 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "stg": "cp .env.stg .env && nodemon ./bin/www",
-    "start:local": "cp .env.testing .env && nodemon ./bin/www",
-    "start:dev": "cp .env.dev .env && nodemon ./bin/www",
-    "start:stg": "cp .env.stg .env && nodemon ./bin/www",
-    "start:prod": "cp .env.prod .env && nodemon ./bin/www",
-    "dev": "cp .env.dev .env && nodemon ./bin/www",
-    "test": "cp .env.testing .env && mocha ./app/User/__test__/*.spec.js"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
