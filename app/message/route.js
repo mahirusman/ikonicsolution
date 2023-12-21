@@ -1,9 +1,9 @@
 var express = require("express");
-const { create_message_validation } = require("./middleware");
+const { createMessageValidation } = require("./middleware");
 var router = express.Router();
 const controller = require("./controller");
 
-router.post("/", [create_message_validation], (req, res, next) => {
+router.post("/", [createMessageValidation], (req, res, next) => {
   controller.create(req, res, next);
 });
 

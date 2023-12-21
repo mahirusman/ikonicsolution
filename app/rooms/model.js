@@ -7,7 +7,7 @@ let ChatRoomSchema = new Schema(
     name: {
       type: String,
       required: true,
-      lowercase: true, // Corrected typo from lowerCase to lowercase
+      lowercase: true,
     },
     participants: [
       {

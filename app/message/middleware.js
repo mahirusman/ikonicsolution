@@ -28,7 +28,7 @@ module.exports = {
     });
   },
 
-  create_message_validation: async (req, res, next) => {
+  createMessageValidation: async (req, res, next) => {
     try {
       const userProfile_Schema = Joi.object({
         roomId: Joi.string().required(),
